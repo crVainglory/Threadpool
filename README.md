@@ -1,2 +1,3 @@
 # Threadpool
-Some simple implementation of thread pool
+Some simple implementations of thread pool
+

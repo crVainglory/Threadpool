@@ -91,6 +91,8 @@ public:
         _locker.unlock();
     }
     //轮询
+    //当有可用的工作时，线程从队列中获取工作并执行它。如果两个线程试图同时执行相同的工作程序会崩溃
+    //通过加锁来避免这种问题
     void run(){
         while(true){
             _locker.lock();
