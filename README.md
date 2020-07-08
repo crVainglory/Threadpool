@@ -1,3 +1,3 @@
 # Threadpool
-Some simple implementations of thread pool
+Some simple implementations of thread pools
 
